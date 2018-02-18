@@ -11,3 +11,4 @@ Behavioral Patterns:
 
 J2EE Patterns:
 New change to pull
+master changes to test merge conflicts
