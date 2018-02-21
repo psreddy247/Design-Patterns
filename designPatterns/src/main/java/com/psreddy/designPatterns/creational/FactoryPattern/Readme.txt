@@ -1,17 +1,13 @@
-In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+In Singleton pattern, It involves only a single class, which is responsible to create an object.
+And its make sure that only one object is instantiate. And also provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
 
 Implementation:
 
-Created interface:
- 1. Shape (interface)
 
 Created concrete classes:
- 1. Circle (implements the Shape interface).
- 2. Rectangle (implements the Shape interface).
- 3. Square (implements the Shape interface).
- 4. ShapeFactory (A factory class).
- 5. FactoryPatternDemo (With main method)
+ 1. SingletonObject
+ 2. SingletonpatternDemo
 
-FactoryPatternDemo, our demo class will use ShapeFactory to get a Shape object. It will pass information (CIRCLE / RECTANGLE / SQUARE) to ShapeFactory to get the type of object it needs.
+SingletonpatternDemo, our demo class will use getInstance() method to get a SingletonObject.
 
 ULM is added for above

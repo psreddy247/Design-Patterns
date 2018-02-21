@@ -1,5 +1,4 @@
-In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
-
+In AbstractFactory pattern, An interface is responsible to create a factory of related Objects without specifying their classes. Each generated factory can give the objects as per the Factory pattern.   
 Implementation:
 
 Created interface:
@@ -18,6 +17,6 @@ Created concrete classes:
  6. FactoryProducer.
  5. AbstractFactoryPatternDemo (With main method)
 
-FactoryPatternDemo, our demo class will use ShapeFactory to get a Shape object. It will pass information (CIRCLE / RECTANGLE / SQUARE) to ShapeFactory to get the type of object it needs.
+AbstractFactoryPatternDemo, our demo class will use FactoryProducer to get a factory by sending factory name. The corresponding factory will creates related object.
 
 ULM is added for above
