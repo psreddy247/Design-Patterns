@@ -1,5 +1,8 @@
 package com.psreddy.designPatterns.creational.singletonPattern;
-
+/*
+ *@author psreddy247
+ *
+ */
 public class SinglePatternDemo {
 
 	public static void main(String[] args) {
